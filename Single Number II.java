@@ -15,7 +15,8 @@ public class Solution {
         }
         int tar = 0 ;
         int tar_val = 1;
-        for (int o: cache.keySet() ) {
+        for (int o: cache.keySet() ) {                          // get key with value
+        
             if(cache.get(o).equals(tar_val)){
                 tar += o ;
                 break ;
